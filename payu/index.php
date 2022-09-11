@@ -6,8 +6,8 @@ error_reporting(0);
 <?php
 $userid =  $_POST['pay_uid'];
 $amount = $_POST['Pay_Amt'];
-$MERCHANT_KEY = "vty7gK";
-$SALT = "Z2kJHoR7VWwuKVfBU8Tf9hSeULgM76BP";
+$MERCHANT_KEY = "Your Marchant Key Here ";
+$SALT = "Marchant Salt Here ";
 //$txnid = substr(hash('sha256', mt_rand() . microtime()), 0, 20);
 $txnid = "TXNCRS".rand(0,1000)."_".$userid; 
  
