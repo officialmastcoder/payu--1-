@@ -27,7 +27,7 @@ if(isset($_POST['status'])){
         ?>
         <script>
             setTimeout(()=>{
-                window.location.href="https://ddprint.in/admin/wallet.php";
+                window.location.href="https://domain.com/admin/wallet.php";
             },2000);
         </script>
         <?php 
@@ -40,7 +40,7 @@ else {
 ?>
  <script>
             setTimeout(()=>{
-                window.location.href="https://ddprint.in/admin/wallet.php";
+                window.location.href="https://domain.com/admin/wallet.php";
             },2000);
         </script>
     
