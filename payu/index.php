@@ -39,8 +39,8 @@ $hash = strtolower(hash('sha512', $hash_string));
     <input type="hidden" name="email" value="<?php echo $email; ?>">
     <input type="hidden" name="phone" value="<?php echo $phone; ?>">
     <input type="hidden" name="mobile" value="<?php echo $phone; ?>">
-    <input type="hidden" name="surl" value="https://ddprint.in/admin/payu/pgResponse.php">
-    <input type="hidden" name="furl" value="https://ddprint.in/admin/wallet.php">
+    <input type="hidden" name="surl" value="https://domain.com/admin/payu/pgResponse.php">
+    <input type="hidden" name="furl" value="https://domain.com/admin/wallet.php">
     <input type="hidden" name="udf1" value="<?php echo $userid ; ?>">
      
  
